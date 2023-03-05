@@ -14,17 +14,17 @@ def test_purchase(driver):
     """
     Scenario: Comprar un artículo en SauceDemo
     Given el usuario ha iniciado sesión en SauceDemo
-    When el usuario hace clic en el primer artículo de la lista de productos
+    When  hace clic en el primer artículo de la lista de productos
     Then el primer artículo se agrega al carrito
-    When el usuario hace en el botón de carrito de compras
-    Then el usuario es redirigido a la página del carrito de compras
-    When el usuario hace clic en el botón de finalizar compra
-    Then el usuario es redirigido a la página de información del comprador
-    When el usuario ingresa la información del comprador requerida
-    And el usuario hace  clic en el botón de continuar
-    Then el usuario es redirigido a la página de resumen de la compra
-    When el usuario hace clic en el botón de finalizar
-    Then el usuari es redirigido a la página de confirmación de compra y ve el mensaje de compra exitosa
+    When hace en el botón de carrito de compras
+    Then es redirigido a la página del carrito de compras
+    When hace clic en el botón de finalizar compra
+    Then es redirigido a la página de información del comprador
+    When ingresa la información del comprador requerida
+    And hace  clic en el botón de continuar
+    Then es redirigido a la página de resumen de la compra
+    When hace clic en el botón de finalizar
+    Then es redirigido a la página de confirmación de compra y ve el mensaje de compra exitosa
     """
     # Login
     driver.get("https://www.saucedemo.com/")
