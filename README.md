@@ -14,10 +14,14 @@ Además, se debe descargar el driver del navegador correspondiente y agregarlo a
 ha utilizado el driver para Chrome, que se puede descargar desde la siguiente página: 
 https://sites.google.com/a/chromium.org/chromedriver/downloads
 
-Estructura del proyecto
+Estructura del proyecto:
+
 /pages: contiene las clases que representan cada una de las páginas de la aplicación.
+
 /tests: contiene los casos de prueba.
+
 /drivers: contiene el driver del navegador.
+
 Ejecución de las pruebas
 Para ejecutar las pruebas, basta con abrir una terminal en la carpeta raíz del proyecto y 
 ejecutar el siguiente comando:
